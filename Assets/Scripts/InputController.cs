@@ -16,7 +16,7 @@ namespace Runner
         {
             _movementController = GetComponent<MovementScript>();
         }
-
+       
         private void Update()
         {
             if (!_jump)
